@@ -19,9 +19,10 @@ import numpy as np
 import tensorflow as tf
 import keras
 import keras.backend as K
-import keras.layers as KL
+#import keras.layers as KL
 import keras.engine as KE
 import keras.models as KM
+from keras.layers import Layer as KL
 
 from mrcnn import utils
 
